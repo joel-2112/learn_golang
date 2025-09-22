@@ -11,14 +11,13 @@ func main() {
 
 	//declare and assign in 1 step
 	var apple string = "apple"
-
-	//declare and assign with type inference
-	//declare and assign using :=
-	banana := "banana"
+	//declare and assign using := shorthand
+	country := "Ethiopia"
+	city := "Addis Ababa"
 	//output
 	fmt.Println("declare and assign in 2 line mango:", mango)
 	fmt.Println("declare and assign in 1 line apple:", apple)
-	fmt.Println("declare and assign using := banana:", banana)
+	fmt.Println("the capital city of ", country," is ", city)
 	//declare multiple variables in 1 line
 	var fruit1, fruit2, fruit3 string = "mango", "apple", "banana"
 	fmt.Println("declare multiple variables in 1 line",fruit1, fruit2, fruit3)
@@ -37,5 +36,14 @@ func main() {
 	//swap values of 2 variables
 	mango, apple = apple, mango
 	fmt.Println("after swapping", mango, apple)
+	// use the println not fmt.Println when use \n
+	var x, y int = 5, 10
+	print("the value of x is: ", x, "\nthe value of y is: ", y)
+
+	//checking the type of a variable
+	fmt.Printf("\nthe type of mango is: %T", mango)
+	fmt.Printf("\nthe type of price is: %T", price)
+	fmt.Printf("\nthe type of isGood is: %T", isGood)
+
 
 }
