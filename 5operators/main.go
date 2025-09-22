@@ -28,6 +28,10 @@ func main() {
 	fmt.Println("a * b =", a*b)
 	fmt.Println("a / b =", a/b)
 	fmt.Println("a % b =", a%b)
+	a++
+	fmt.Println("a++ =", a)
+	a--
+	fmt.Println("a-- =", a)
 	//Relational operators
 	fmt.Println("Relational Operators:")
 	fmt.Println("a == b is", a == b)
@@ -60,7 +64,7 @@ func main() {
 	x := 4 // 0100 in binary
 	y := 5 // 0101 in binary
 	fmt.Println("x & y is", x&y)
-	fmt.Println("x | y is", x|y)
+	fmt.Println("x |  y is", x|y)
 	fmt.Println("x ^ y is", x^y)
 	fmt.Println("x << 1 is", x<<1)
 	fmt.Println("y >> 1 is", y>>1)
