@@ -59,6 +59,25 @@ func main() {
 		}
 		fmt.Println("Odd Number:", i)
 	}
+
+	//goto statement
+	i := 1
+Here:
+	if i <= 5 {
+		fmt.Println("i:", i)
+		i++
+		goto Here 
+	}
+	fmt.Println("Loop ended")
+	for i := 1; i <= 5; i++ {
+		if i == 3 {
+			goto Skip
+		}
+		fmt.Println("i:", i)
+	}
+	Skip:
+		fmt.Println("Skipped when i was 3")
+
 	//switch statement
 	day := 3
 	switch day {
