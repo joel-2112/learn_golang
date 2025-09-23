@@ -68,5 +68,12 @@ func main() {
 	fmt.Println("x ^ y is", x^y)
 	fmt.Println("x << 1 is", x<<1)
 	fmt.Println("y >> 1 is", y>>1)
+	//address and pointer operators
+	fmt.Println("Address and Pointer Operators:")
+	num := 42
+	ptr := &num
+	fmt.Println("Value of num:", num)
+	fmt.Println("Address of num:", ptr)
+	fmt.Println("Value at address ptr:", *ptr)
 
 }
