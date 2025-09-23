@@ -66,7 +66,7 @@ Here:
 	if i <= 5 {
 		fmt.Println("i:", i)
 		i++
-		goto Here 
+		goto Here
 	}
 	fmt.Println("Loop ended")
 	for i := 1; i <= 5; i++ {
@@ -75,8 +75,8 @@ Here:
 		}
 		fmt.Println("i:", i)
 	}
-	Skip:
-		fmt.Println("Skipped when i was 3")
+Skip:
+	fmt.Println("Skipped when i was 3")
 
 	//switch statement
 	day := 3
