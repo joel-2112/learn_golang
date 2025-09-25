@@ -24,9 +24,9 @@ func main(){
 	fmt.Println("num slice ",num)
 	fmt.Println("num1 after copy", num1)
 	//nil slice
-	var x []int
-	fmt.Println("nil slice: ",x)
-	if x == nil {
-		fmt.Println("this is nil slice",x)
-	}
+	// var x []int
+	// fmt.Println("nil slice: ",x)
+	// if x == nil {
+	// 	fmt.Println("this is nil slice",x)
+	// }
 }
