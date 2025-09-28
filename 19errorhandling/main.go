@@ -1,5 +1,5 @@
 package main
-
+//this is like the main staff import module
 import (
 	"errors"
 	"fmt"
