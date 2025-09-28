@@ -21,6 +21,7 @@ func main() {
 	fmt.Println("error handling in go")
 	result, err := Sqrt(16)
 	//!nill means if there is error
+	//not nill means if there is error
 	if err != nil {
 		fmt.Println(err)
 	} else {
